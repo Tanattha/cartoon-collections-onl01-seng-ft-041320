@@ -13,8 +13,7 @@ end
 
 
 def long_planeteer_calls(array)
-  case 
-  when array.length > 4
+  if  array.length > 4
     true
   else
     false

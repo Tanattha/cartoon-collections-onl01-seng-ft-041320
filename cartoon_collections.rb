@@ -1,5 +1,6 @@
 def roll_call_dwarves(array)
-  puts array
+  array.collect do |print_name|
+    print_name
 end
 
 def summon_captain_planet# code an argument here

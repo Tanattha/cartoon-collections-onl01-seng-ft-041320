@@ -22,14 +22,7 @@ def find_the_cheese(array)
   cheeses = ["cheddar", "gouda", "camembert"]
   
    array.find do |check|
-    cheeses.include?(array)
+    cheeses.include?(check)
   end
 end
 
-def find_the_cheese(potentially_cheesy_items)
-  cheeses = %w[gouda cheddar camembert]
-
-  potentially_cheesy_items.find do |maybe_cheese|
-    cheeses.include?(maybe_cheese)
-  end
-end

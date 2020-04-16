@@ -25,3 +25,6 @@ def find_the_cheese(array)
     cheeses.include?(array)
   end
 end
+
+potentially_cheesy_items.find do |maybe_cheese|
+    cheeses.include?(maybe_cheese)
